@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FlowerStore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Clion pojects/FlowerStore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FlowerStore">
+				<Option output="D:/Clion pojects/FlowerStore/cmake-build-debug/FlowerStore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion pojects/FlowerStore/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 FlowerStore"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FlowerStore/fast">
+				<Option output="D:/Clion pojects/FlowerStore/cmake-build-debug/FlowerStore.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Clion pojects/FlowerStore/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 FlowerStore/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Clion pojects/FlowerStore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Clion pojects/FlowerStore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\Clion pojects\FlowerStore\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Clion pojects/FlowerStore/Address.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Balloons.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Branch.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Brand.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Date.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/FIO.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/FlowerStore.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Flowers.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Owner.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Person.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Products.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Requisites.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Staff.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/Toys.h">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/main.cpp">
+			<Option target="FlowerStore"/>
+		</Unit>
+		<Unit filename="D:/Clion pojects/FlowerStore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
